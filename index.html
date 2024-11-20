@@ -1,17 +1,10 @@
-<!--
-     Author:    Build Rise Shine with Nyros (BRS) 
-     Created:   11.05.2022 
-     Library / Component: Home Page
-     Description: Main page  for the app
-     (c) Copyright by BRS with Nyros. 
--->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Booking | JavaScript Calendly API</title>
+    <title>Booking</title>
     <link rel="icon" href="http://203.193.173.125/buildriseshine/favicon.png" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -33,10 +26,8 @@
       rel="stylesheet"
       href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
     />
-    <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-    <!-- Calendly link widget begin -->
     <link
       href="https://assets.calendly.com/assets/external/widget.css"
       rel="stylesheet"
@@ -46,51 +37,12 @@
       type="text/javascript"
       async
     ></script>
-    <!-- Calendly link widget end -->
   </head>
   <body>
-    <header>
-      <div class="d-flex bg-gradient">
-        <div class="d-flex flex-grow-1">
-          <nav class="courseTitle">
-            <button class="navbar-brand border-0">
-              <img src="assets/img/logo.png" alt="logo" />
-            </button>
-          </nav>
-          <div class="flex-grow-1">
-            <div class="ReactTitle ps-3 d-flex align-items-center">
-              <img src="assets/img/react-2@2x.png" alt="logo" />
-              <h3 class="mb-0">JS Apps with APIs</h3>
-            </div>
-            <div class="d-flex ps-3 align-items-center">
-              <div class="flex-grow-1">
-                <h4>API: Calendly API</h4>
-                <p class="pb-0 mb-0 text-start">
-                  Purpose: To Book time slots for events
-                </p>
-              </div>
-              <div class="link me-3">
-                <p class="mb-0 py-0">
-                  <a
-                    href="https://developer.calendly.com/api-docs"
-                    target="_blank"
-                  >
-                    https://developer.calendly.com/api-docs
-                  </a>
-                  <img src="assets/img/noun-link.png" class="ms-2" />
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-
     <main role="main" class="container pt-5">
       <div class="row justify-content-md-center">
         <div class="col col-3">
           <div id="date" class="d-none">
-            <!-- <input type="date" class="form-control" /> -->
             <div id="date"></div>
           </div>
         </div>
@@ -123,29 +75,6 @@
         </div>
       </div>
     </main>
-
-    <footer class="footer footer-dark">
-      <div class="d-flex justify-content-between px-5">
-        <div>ALL RIGHTS RESERVED BRS STUDIO, INDIA</div>
-        <div>
-          <button
-            onclick="setTheme('#1A4B84')"
-            class="theme-switch theme-switch-chathams_blue"
-          ></button>
-          <button
-            onclick="setTheme('#991E14')"
-            class="theme-switch theme-switch-tamarillo"
-          ></button>
-          <button
-            onclick="setTheme('#FEAD06')"
-            class="theme-switch theme-switch-yellow_sea"
-          ></button>
-        </div>
-        <div>
-          <img src="assets/img/footer-logo.png" alt="logo" />
-        </div>
-      </div>
-    </footer>
     <script src="assets/js/script2.js"></script>
   </body>
 </html>
